@@ -6,7 +6,7 @@ import './styles.css';
 import { Panel, Placeholder, Row, Col } from 'rsuite';
 
 const Card = props => (
-  <Panel {...props} bordered header="Card title">
+  <Panel {...props} bordered header="Card title" content={"21"}>
     <Placeholder.Paragraph />
   </Panel>
 );
